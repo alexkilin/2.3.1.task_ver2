@@ -1,5 +1,4 @@
 package web.service;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
@@ -11,9 +10,13 @@ import java.util.List;
 @Service
 @Transactional(readOnly = true)
 public class UserServiceImp implements UserService {
-    @Autowired
-    @Qualifier("userDaoJpa")
+
     private UserDao userDao;
+
+    @Autowired
+    public UserServiceImp(@Qualifier("userDaoJpa") UserDao userDao) {
+        this.userDao=userDao;
+    }
 
     @Transactional
     public void addUser(User user) {

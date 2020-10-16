@@ -8,6 +8,13 @@
   <component name="ChangeListManager">
     <list default="true" id="963f0150-18b8-43f2-a186-e2174b678ce9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/config/DatabaseConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/config/DatabaseConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/controller/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/controller/UsersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/dao/UserDaoJpa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/dao/UserDaoJpa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/qwestions" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/qwestions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/service/UserServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/service/UserServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resourses/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resourses/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,15 +30,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/pages/users/delete.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="4" selection-start-line="9" selection-end-line="9" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/pages/users/update.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
@@ -40,7 +38,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/web/config/WebConfig.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
@@ -50,22 +48,41 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/web/config/DatabaseConfig.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/web/controller/UsersController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="55" column="7" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="7" />
+            <state relative-caret-position="340">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#469#470#0" expanded="true" />
+                <element signature="e#506#507#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/web/service/UserService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/web/dao/UserDaoJpa.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+            <state>
+              <caret column="16" selection-start-column="16" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#0#37#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/web/config/DatabaseConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-255">
+              <caret column="19" selection-start-column="19" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -73,8 +90,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/web/service/UserServiceImp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+            <state>
+              <caret column="20" selection-start-column="20" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,20 +99,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/web/qwestions">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resourses/db.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="153">
+              <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/pages/users/home.html">
+        <entry file="file://$PROJECT_DIR$/src/main/java/web/qwestions">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="28" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="32" />
+            <state relative-caret-position="431">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
@@ -114,6 +131,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -137,20 +157,20 @@
         <option value="$PROJECT_DIR$/src/webapp/WEB-INF/pages/users/hello_page.html" />
         <option value="$PROJECT_DIR$/src/main/java/web/config/AppInit.java" />
         <option value="$PROJECT_DIR$/src/webapp/WEB-INF/pages/users/delete.html" />
-        <option value="$PROJECT_DIR$/src/main/resourses/db.properties" />
         <option value="$PROJECT_DIR$/src/main/java/web/model/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/web/dao/JPAUserDaoImp.java" />
         <option value="$PROJECT_DIR$/src/webapp/WEB-INF/pages/users/create.html" />
-        <option value="$PROJECT_DIR$/src/main/java/web/qwestions" />
         <option value="$PROJECT_DIR$/src/main/java/web/dao/UserDaoImp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/web/config/DatabaseConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/web/dao/UserDaoJpa.java" />
         <option value="$PROJECT_DIR$/src/main/java/web/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/web/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/web/service/UserServiceImp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/web/controller/UsersController.java" />
         <option value="$PROJECT_DIR$/src/webapp/WEB-INF/pages/users/home.html" />
         <option value="$PROJECT_DIR$/src/webapp/WEB-INF/pages/users/update.html" />
+        <option value="$PROJECT_DIR$/src/main/java/web/qwestions" />
+        <option value="$PROJECT_DIR$/src/main/java/web/controller/UsersController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/web/config/DatabaseConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/web/dao/UserDaoJpa.java" />
+        <option value="$PROJECT_DIR$/src/main/java/web/service/UserServiceImp.java" />
+        <option value="$PROJECT_DIR$/src/main/resourses/db.properties" />
       </list>
     </option>
   </component>
@@ -185,10 +205,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-16" />
-    <option name="y" value="427" />
-    <option name="width" value="1346" />
-    <option name="height" value="359" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -198,6 +218,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -245,6 +267,42 @@
               <item name="2.3.1JM" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-mvc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2.3.1JM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-mvc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2.3.1JM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-mvc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2.3.1JM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-mvc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2.3.1JM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resourses" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -277,30 +335,17 @@
               <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="users" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="spring-mvc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="2.3.1JM" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-mvc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="2.3.1JM" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SpringMVC_Security_Example" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../task231JM" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -480,6 +525,18 @@
       <workItem from="1600156755765" duration="594000" />
       <workItem from="1600288580884" duration="292000" />
       <workItem from="1600332682397" duration="90000" />
+      <workItem from="1600334779789" duration="854000" />
+      <workItem from="1600431507189" duration="596000" />
+      <workItem from="1600508467552" duration="591000" />
+      <workItem from="1600587334805" duration="1260000" />
+      <workItem from="1600718450053" duration="585000" />
+      <workItem from="1600754559886" duration="571000" />
+      <workItem from="1600891477731" duration="591000" />
+      <workItem from="1600940657975" duration="595000" />
+      <workItem from="1600974703107" duration="585000" />
+      <workItem from="1601103661348" duration="139000" />
+      <workItem from="1601124815047" duration="4991000" />
+      <workItem from="1602876990177" duration="1582000" />
     </task>
     <task id="LOCAL-00001" summary="task done">
       <created>1598625632963</created>
@@ -530,16 +587,24 @@
       <option name="project" value="LOCAL" />
       <updated>1600332748670</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="2 ver 2.3.1. task">
+      <created>1600335006608</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1600335006608</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107895000" />
+    <option name="totallyTimeSpent" value="120835000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28441754" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33282906" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -549,7 +614,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3297546" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.45261437" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.45261437" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5582822" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -675,27 +740,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resourses/db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/web/config/AppInit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="26" column="22" selection-start-line="25" selection-end-line="28" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/web/dao/UserDaoJpa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -706,20 +754,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/web/controller/UsersController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="62" column="33" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/pages/users/delete.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="4" selection-start-line="9" selection-end-line="9" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/web/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/pages/users/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/web/qwestions">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/pages/users/create.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="64" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="72" />
         </state>
       </provider>
     </entry>
@@ -732,56 +798,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/web/config/DatabaseConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="55" column="7" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="7" />
+        <state relative-caret-position="-255">
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/web/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/web/service/UserServiceImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/web/qwestions">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/pages/users/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="28" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/pages/users/create.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="64" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/web/dao/UserDaoImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -789,6 +810,57 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/web/controller/UsersController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#469#470#0" expanded="true" />
+            <element signature="e#506#507#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/web/dao/UserDaoImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/web/dao/UserDaoJpa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#37#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/web/service/UserServiceImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" selection-start-column="20" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resourses/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
         </state>
       </provider>
     </entry>

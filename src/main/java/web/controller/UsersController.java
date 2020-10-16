@@ -11,13 +11,16 @@ import java.util.List;
 @Controller
 @RequestMapping("/users")
 public class UsersController {
-    @Autowired
+
     public UserService service;
+
+    @Autowired
+    public UsersController(UserService service) {
+        this.service = service;
+    }
 
     @GetMapping(value = "/users")
     public String listAll(Model model) {
-       //User user1 = new User("Ivan", "Ivanov", "email", 30);
-      // service.addUser(user1);
         List<User> users = service.getAllUsers();
         model.addAttribute("listOfUsers", users);
         return "/users/home";

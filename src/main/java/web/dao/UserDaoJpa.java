@@ -1,5 +1,4 @@
 package web.dao;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 import web.model.User;
 import javax.persistence.EntityManager;
@@ -38,6 +37,6 @@ private EntityManager entityManager;
     public User readUserById(Long id) {
         TypedQuery<User> q = entityManager.createQuery("select u from User u where u.id = :id", User.class);
         q.setParameter("id", id);
-        return q.getResultList().stream().findAny().orElse(null);
+        return q.getSingleResult();
     }
 }
