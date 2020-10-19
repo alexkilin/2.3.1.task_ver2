@@ -22,7 +22,11 @@ private EntityManager entityManager;
         User currentUser = readUserById(user.getId());
         entityManager.remove(currentUser);
     }
-
+    @Override
+    public void deleteUserById(Long id) {
+        User currentUser = readUserById(id);
+        entityManager.remove(currentUser);
+    }
     @Override
     public List<User> getAllUsers() {
         return entityManager.createQuery("from User",User.class).getResultList();

@@ -42,3 +42,17 @@ done
 
 5-в методе один запрос в базу?
 6-id  при обновление не меняется?
+
+CSS:
+style="background-color:green;"
+
+table {
+     width: 100%; /* Ширина таблицы */
+     background: white; /* Цвет фона таблицы */
+     color: white; /* Цвет текста */
+     border-spacing: 1px; /* Расстояние между ячейками */
+ }
+td, th {
+    background: maroon; /* Цвет фона ячеек */
+    padding: 5px; /* Поля вокруг текста */
+}

@@ -42,7 +42,7 @@ public class UsersController {
 
     @GetMapping(value = "/delete/{id}")
     public String deleteUser(@PathVariable Long id) {
-        service.deleteUser(service.readUserById(id));
+        service.deleteUserById(id);
         return "redirect:/users/users";
     }
 
@@ -59,27 +59,10 @@ public class UsersController {
         model.addAttribute("user", user);
         return "users/update";
     }
-
-    // 1 вариант
+    
     @PostMapping(value = "/update")
     public String updateUser(@ModelAttribute User user) {
         service.updateUser(user);
         return "redirect:/users/users";
     }
-
-
-//    2 вариант - получаем через @RequestParam параментры
-//    @RequestMapping(value = "/updateUser", method = RequestMethod.POST)
-//    public String updateUser(@RequestParam (value = "id",required = false) Long id,
-//                             @RequestParam (value = "age",required = false) int age, Model model) {
-//        System.out.println("id: " + id + " age: " + age);
-//        User user = service.readUserById(id);
-//        user.setAge(age);
-//        System.out.println("new value of age: " + user.getAge());
-//        service.updateUser(user);
-//        List<User> users = service.getAllUsers();
-//        model.addAttribute("listOfUsers", users);
-//        return "users/home";
-
-
 }

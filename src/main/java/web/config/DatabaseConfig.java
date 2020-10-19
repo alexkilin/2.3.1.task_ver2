@@ -40,8 +40,6 @@ public class DatabaseConfig {
         return dataSource;
     }
 
-
-
     @Bean ("entityManagerFactory")
     public LocalContainerEntityManagerFactoryBean entityManagerFactory() {
         LocalContainerEntityManagerFactoryBean em
@@ -51,7 +49,6 @@ public class DatabaseConfig {
         JpaVendorAdapter vendorAdapter = new HibernateJpaVendorAdapter();
         em.setJpaVendorAdapter(vendorAdapter);
         em.setJpaProperties(additionalProperties());
-
         return em;
     }
 

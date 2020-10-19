@@ -28,6 +28,13 @@ public class UserDaoImp implements UserDao{
     }
 
     @Override
+    public void deleteUserById(Long id) {
+        User currentUser = readUserById(id);
+        sessionFactory.getCurrentSession().delete(currentUser);
+    }
+
+
+    @Override
     public List<User> getAllUsers() {
         TypedQuery<User> query = sessionFactory.getCurrentSession().createQuery("from User");
         return query.getResultList();

@@ -39,6 +39,11 @@ public class UserServiceImp implements UserService {
     }
 
     @Transactional
+    public void deleteUserById(Long id) {
+        userDao.deleteUserById(id);
+    }
+
+    @Transactional
     public User readUserById(Long id) {
         return userDao.readUserById(id);
     }
